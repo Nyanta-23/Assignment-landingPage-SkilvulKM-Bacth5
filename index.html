@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuyliner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- My Style -->
+  <link rel="stylesheet" href="./assets/style/landingPage.css">
+  <!-- My Style -->
+</head>
+<body>
+  
+  <!-- Navbar -->
+    <nav id="navbar-kuyliner">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./assets/img/kuyliner-black.png" alt="" />
+          </a>
+        </li>
+        <li id="user-profile">
+          <a href="#">
+            <div class="rounded"></div>
+          </a>
+        </li>
+        <li>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Article</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  <!-- End Navbar -->
+
+  <!-- Herosection -->
+  <header>
+    <section id="hero-section">
+      <div class="img"></div>
+      <div class="img-layer-overlay"></div>
+      <div class="text-box">
+        <div class="text-wrap">
+          <h5>Selamat datang di Kuyliner</h5>
+          <h1>Menu Varian Kuliner Untuk Pecinta Makanan</h1>
+          <p id="description">Agar Kuyliner bisa memberikan pengalaman rasa yang terbaik bagi anda. Daftar sebagai pengguna untuk mencari citra rasa dari hidangan UMKM indonesia.</p>
+          <div class="btn-account">
+            <button>Masuk</button>
+            <button>Daftar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- End Herosection -->
+
+  <!-- Search Bar -->
+    <section id="search-section">
+      <div class="search-box">
+        <label for="search">Cari Kuliner</label>
+        <div class="search-and-dropdown">
+
+          <div class="search-button-box">
+            <input type="text" placeholder="Cari Kuliner Anda" id="search">
+            <button><img src="./assets/img/icons/search-regular.svg" alt="icons-search"></button>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn-dropdown">
+              <p>Pilih Tempat</p>
+              <img src="./assets/img/icons/down-regular.svg" alt="icon-dropdown" />
+            </button>
+
+            <div class="search-option">
+              <ul class="dropdown-list">
+                <li class="list-radio-btn">
+                  <input type="radio" value name="search-option-list" id="opt-default-search">
+                  <label for="opt-default-search">Semua</label>
+                </li>
+                <li class="list-radio-btn">
+                  <input type="radio" value="Bandung" name="search-option-list" id="search-opt-1">
+                  <label for="search-opt-1">Bandung</label>
+                </li>
+                <li class="list-radio-btn">
+                  <input type="radio" value="Bekasi" name="search-option-list" id="search-opt-2">
+                  <label for="search-opt-2">Bekasi</label>
+                </li>
+                <li class="list-radio-btn">
+                  <input type="radio" value="Jakarta" name="search-option-list" id="search-opt-3">
+                  <label for="search-opt-3">Jakarta</label>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          
+        </div>  
+      </div>
+    </section>
+
+  <!-- End Searchbar -->
+
+  <!-- Content Product -->
+
+    <section id="content">
+      <main>
+        <h3>Makanan Yang Lagi Diminati di Kuyliner</h3>
+        <!-- Cards Product -->
+        <section id="product-cards">
+
+          <!-- Card -->
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="card">
+            <div class="card-product">
+              <div class="card-wrap-img">
+                <div class="card-border-img">
+                  <div class="card-img" style="background-image: url('./assets/img/card/product1.png');"></div>
+                  <!-- <div class="glass-effect">Lihat Detail</div> -->
+                </div>
+              </div>
+
+              <div class="card-desc">
+                <div class="card-desc-admin-profile">
+                  <div class="card-admin-profile">
+                    <div class="img-admin-profile" style="background-image: url('./assets/img/profile-admin.png');"></div>
+                    <a href="#" class="name-admin">Mala Kitchen</a>
+                  </div>
+                  <a href="#">Nasi Goreng</a>
+                  <p class="location-product">Jakarta Timur</p>
+                </div>
+                <div class="rating">
+                  <img src="./assets/img/icons/star-rating.svg" alt="rating" />
+                  <div class="rating-calc"><p><span>4.8</span>/<span>5.0</span></p></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Card -->
+
+        </section>
+        <!-- Cards Product -->
+      </main>
+      <aside>
+        <h3>Artikel</h3>
+        <section id="section-article-cards">
+          <div class="card-article">
+            <div class="direction-wrap-img">
+              <div class="wrapper-img">
+                <img src="./assets/img/article.png" alt="">
+              </div>
+            </div>
+            <div class="article-title">
+              <h4>20 Tempat Nongki Murah Di Jakarta ternyata banyak tidak disangka bahwa hal ini bisa</h4>
+            </div>
+          </div>
+          <div class="card-article">
+            <div class="direction-wrap-img">
+              <div class="wrapper-img">
+                <img src="./assets/img/article.png" alt="">
+              </div>
+            </div>
+            <div class="article-title">
+              <h4>20 Tempat Nongki Murah Di Jakarta ternyata banyak tidak disangka bahwa hal ini bisa</h4>
+            </div>
+          </div>
+          <div class="card-article">
+            <div class="direction-wrap-img">
+              <div class="wrapper-img">
+                <img src="./assets/img/article.png" alt="">
+              </div>
+            </div>
+            <div class="article-title">
+              <h4>20 Tempat Nongki Murah Di Jakarta ternyata banyak tidak disangka bahwa hal ini bisa</h4>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <!-- Pagination -->
+    <!-- <section id="pagination">
+        <button class="left-pagination">
+          <img src="./assets/img/icons/left-pagination.svg" alt="">
+        </button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button class="right-pagination">
+          <img src="./assets/img/icons/right-pagination.svg" alt="">
+        </button>
+    </section> -->
+    <!-- Pagination -->
+
+  <!-- End Content Product -->
+
+  <!-- Partner Text and Image (this will change to form cause i need for assignment) -->
+    <section id="section-partner">
+      <div class="section-left">
+        <p>Ingin menjual product seperti mereka?</p>
+        <h3>Ayo Jadi partner <span>Kuy</span>liner</h3>
+        <p class="desc">Dengan menjadi partner kami, kami akan membantu UMKM anda dengan cara membagikan tempat kuliner anda.</p>
+      </div>
+      <div class="section-right">
+        <div  class="form-section">
+          <h2>Daftar</h2>
+          <form action="" id="form-input">
+            <label for="name">Username</label>
+            <input type="text" id="name" />
+            <label for="city">City</label>  
+            <input type="text" id="city" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="zip-code">No Phone</label>
+            <input type="number" id="zip-code" />
+            <div id="warning">
+              <input type="checkbox" id="status" />
+              <label for="status">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+            </div>
+            <button type="submit" id="submit-form">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    
+  <!-- Partner Text -->
+
+
+  <footer>
+    <section id="about-and-link">
+      <div class="about-and-contact">
+        <div class="about">
+          <img src="./assets/img/kuyliner-white.png" alt="">
+          <p>Membagikan pengalaman terbaik bagi para UMKM dan Konsumen. </p>
+        </div>
+        <div class="contact">
+          <h4>Kontak kami</h4>
+          <p>kuyliner@gmail.com</p>
+          <p>+62123123782781</p>
+        </div>
+      </div>
+      <div id="link" class="link-skilvul" >
+        <a href="https://skilvul.com/" target="_blank">
+          <img src="./assets/img/skilvul-icon.png" alt="icon-skilvul">
+        </a>
+      </div>
+    </section>
+
+    <section id="credit">
+      <hr>
+      <p>
+        <small>
+          © 2023 <a href="https://github.com/Nyanta-23" target="_blank">Muhamad Ilhan Revaliana Firmansyah.</a> All rights reserved. Made with ❤️ in Indonesia.
+        </small> 
+      </p>
+    </section>
+  </footer>
+
+  <script src="./assets/script/script.js"></script>
+</body>
+</html>
+
+
