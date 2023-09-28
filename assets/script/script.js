@@ -21,11 +21,11 @@ document.getElementById('form-input').addEventListener('submit', event => {
 
 function handleGetFormData() {
 
-  nameInput = document.getElementById('name');
-  emailInput = document.getElementById('email');
-  cityInput = document.getElementById('city');
-  zipCodeInput = document.getElementById('zip-code');
-  statusCheckbox = document.getElementById('status');
+  const nameInput = document.getElementById('name');
+  const emailInput = document.getElementById('email');
+  const cityInput = document.getElementById('city');
+  const zipCodeInput = document.getElementById('zip-code');
+  const statusCheckbox = document.getElementById('status');
 
   const data = {
     name: nameInput.value,
